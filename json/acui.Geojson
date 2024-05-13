@@ -1,0 +1,145 @@
+{
+    "currentVersion": 10.81,
+    "id": 14,
+    "name": "Acuifero Guaraní",
+    "type": "Feature Layer",
+    "description": "",
+    "geometryType": "esriGeometryPolygon",
+    "sourceSpatialReference": {
+     "wkid": 32721,
+     "latestWkid": 32721
+    },
+    "copyrightText": "",
+    "parentLayer": {
+     "id": 13,
+     "name": "Cuencas Hidrográficas"
+    },
+    "subLayers": [],
+    "minScale": 0,
+    "maxScale": 0,
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSFS",
+       "style": "esriSFSSolid",
+       "color": [
+        102,
+        119,
+        205,
+        255
+       ],
+       "outline": {
+        "type": "esriSLS",
+        "style": "esriSLSNull",
+        "color": [
+         110,
+         110,
+         110,
+         255
+        ],
+        "width": 0
+       }
+      },
+      "label": "",
+      "description": ""
+     },
+     "transparency": 40,
+     "labelingInfo": null
+    },
+    "defaultVisibility": false,
+    "extent": {
+     "xmin": 9784.181499999948,
+     "ymin": 6431052.8943,
+     "xmax": 1564924.2391,
+     "ymax": 8136632.208,
+     "spatialReference": {
+      "wkid": 32721,
+      "latestWkid": 32721
+     }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "NOMBRE",
+    "typeIdField": null,
+    "subtypeFieldName": null,
+    "subtypeField": null,
+    "defaultSubtypeCode": null,
+    "fields": [
+     {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+     },
+     {
+      "name": "FID_pg",
+      "type": "esriFieldTypeInteger",
+      "alias": "FID_pg",
+      "domain": null
+     },
+     {
+      "name": "NOMBRE",
+      "type": "esriFieldTypeString",
+      "alias": "NOMBRE",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": null
+     }
+    ],
+    "geometryField": {
+     "name": "Shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "Shape"
+    },
+    "indexes": [
+     {
+      "name": "R702_pk",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+     },
+     {
+      "name": "S690_idx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+     }
+    ],
+    "subtypes": [],
+    "relationships": [],
+    "canModifyLayer": true,
+    "canScaleSymbols": false,
+    "hasLabels": false,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 1000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, geoJSON",
+    "isDataVersioned": false,
+    "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+    "useStandardizedQueries": true,
+    "advancedQueryCapabilities": {
+     "useStandardizedQueries": true,
+     "supportsStatistics": true,
+     "supportsHavingClause": true,
+     "supportsCountDistinct": true,
+     "supportsOrderBy": true,
+     "supportsDistinct": true,
+     "supportsPagination": true,
+     "supportsTrueCurve": true,
+     "supportsReturningQueryExtent": true,
+     "supportsQueryWithDistance": true,
+     "supportsSqlExpression": true
+    },
+    "supportsDatumTransformation": true,
+    "supportsCoordinatesQuantization": true,
+    "serviceItemId": "faf04223839e40a78804ae381fe71982"
+   }
